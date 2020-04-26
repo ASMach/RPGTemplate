@@ -19,7 +19,7 @@ public class @InputManager : IInputActionCollection, IDisposable
             ""id"": ""18f91e72-fe2d-407e-94b9-bd921879700a"",
             ""actions"": [
                 {
-                    ""name"": ""Walk"",
+                    ""name"": ""GoTo"",
                     ""type"": ""PassThrough"",
                     ""id"": ""e6227a23-abca-472e-bbe9-0d4c0f157994"",
                     ""expectedControlType"": ""Vector2"",
@@ -52,226 +52,6 @@ public class @InputManager : IInputActionCollection, IDisposable
                 }
             ],
             ""bindings"": [
-                {
-                    ""name"": ""WASD"",
-                    ""id"": ""ec069182-167d-4769-b959-be6e751dfa14"",
-                    ""path"": ""2DVector"",
-                    ""interactions"": ""Hold,Press(behavior=1)"",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Walk"",
-                    ""isComposite"": true,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""up"",
-                    ""id"": ""a695256c-a98b-4958-a620-45dfde59aaae"",
-                    ""path"": ""<Keyboard>/w"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard"",
-                    ""action"": ""Walk"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""5bdd4608-d4d3-4491-85a3-772fe926692b"",
-                    ""path"": ""<Keyboard>/s"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard"",
-                    ""action"": ""Walk"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""826d1810-caaf-4027-be47-4285144542cf"",
-                    ""path"": ""<Keyboard>/a"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard"",
-                    ""action"": ""Walk"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""1847c49e-d333-414d-8436-e27dfa0ca13a"",
-                    ""path"": ""<Keyboard>/d"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard"",
-                    ""action"": ""Walk"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""Joystick"",
-                    ""id"": ""be2e9ef6-2330-43cf-a0f9-100297473907"",
-                    ""path"": ""2DVector"",
-                    ""interactions"": ""Hold"",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Walk"",
-                    ""isComposite"": true,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""up"",
-                    ""id"": ""c99cfede-692d-4fdb-9489-6ba0f54f5e1a"",
-                    ""path"": ""<Joystick>/stick/y"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Joystick"",
-                    ""action"": ""Walk"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""eeec3edb-463c-4fa3-8ffd-78dfccda16dd"",
-                    ""path"": ""<Joystick>/stick/y"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Joystick"",
-                    ""action"": ""Walk"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""862b8963-90a3-485e-830a-b653696e68ef"",
-                    ""path"": ""<Joystick>/stick/x"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Joystick"",
-                    ""action"": ""Walk"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""783fca87-6647-424a-97ab-55c700607b58"",
-                    ""path"": ""<Joystick>/stick/x"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Joystick"",
-                    ""action"": ""Walk"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""ThumbStick"",
-                    ""id"": ""a627c5e7-a7eb-4a13-b1aa-de5b5e71db27"",
-                    ""path"": ""2DVector"",
-                    ""interactions"": ""Hold"",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Walk"",
-                    ""isComposite"": true,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""up"",
-                    ""id"": ""64ffa37e-edaf-48e4-b760-32e9ebe0e6a3"",
-                    ""path"": ""<Gamepad>/leftStick/y"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Gamepad"",
-                    ""action"": ""Walk"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""7d0ab669-fe1a-4736-8469-b063c3e8cd26"",
-                    ""path"": ""<Gamepad>/leftStick/y"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Gamepad"",
-                    ""action"": ""Walk"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""d8a8a81f-153d-4a67-a469-6517e06f39b1"",
-                    ""path"": ""<Gamepad>/leftStick/x"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Gamepad"",
-                    ""action"": ""Walk"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""93f2f40d-00c5-4b67-b488-9b9a6955f1ca"",
-                    ""path"": ""<Gamepad>/leftStick/right"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Gamepad"",
-                    ""action"": ""Walk"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""Arrows"",
-                    ""id"": ""c1b4fb47-76e2-470b-9c65-2cffeade5d60"",
-                    ""path"": ""2DVector"",
-                    ""interactions"": ""Hold,Press(behavior=1)"",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Walk"",
-                    ""isComposite"": true,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""up"",
-                    ""id"": ""91974af7-fedf-41cc-9142-2baffe8ee82d"",
-                    ""path"": ""<Keyboard>/upArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard"",
-                    ""action"": ""Walk"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""e94201af-057e-4690-b382-1cc61b6d0c0b"",
-                    ""path"": ""<Keyboard>/downArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard"",
-                    ""action"": ""Walk"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""4392891c-416f-4c61-9050-6bd4ca4743cf"",
-                    ""path"": ""<Keyboard>/leftArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard"",
-                    ""action"": ""Walk"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""604eefea-3ec2-4bb1-981e-6c4459a4086b"",
-                    ""path"": ""<Keyboard>/rightArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard"",
-                    ""action"": ""Walk"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
                 {
                     ""name"": """",
                     ""id"": ""a81e2807-da4f-43ba-ba88-1b0cdf36a999"",
@@ -348,6 +128,17 @@ public class @InputManager : IInputActionCollection, IDisposable
                     ""action"": ""Defend"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""aa547f40-9dcc-4440-8a02-2e9ef94574b2"",
+                    ""path"": ""<Touchscreen>/primaryTouch/position"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Touch"",
+                    ""action"": ""GoTo"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -377,7 +168,7 @@ public class @InputManager : IInputActionCollection, IDisposable
 }");
         // Player
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
-        m_Player_Walk = m_Player.FindAction("Walk", throwIfNotFound: true);
+        m_Player_GoTo = m_Player.FindAction("GoTo", throwIfNotFound: true);
         m_Player_Talk = m_Player.FindAction("Talk", throwIfNotFound: true);
         m_Player_Action = m_Player.FindAction("Action", throwIfNotFound: true);
         m_Player_Defend = m_Player.FindAction("Defend", throwIfNotFound: true);
@@ -430,7 +221,7 @@ public class @InputManager : IInputActionCollection, IDisposable
     // Player
     private readonly InputActionMap m_Player;
     private IPlayerActions m_PlayerActionsCallbackInterface;
-    private readonly InputAction m_Player_Walk;
+    private readonly InputAction m_Player_GoTo;
     private readonly InputAction m_Player_Talk;
     private readonly InputAction m_Player_Action;
     private readonly InputAction m_Player_Defend;
@@ -438,7 +229,7 @@ public class @InputManager : IInputActionCollection, IDisposable
     {
         private @InputManager m_Wrapper;
         public PlayerActions(@InputManager wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Walk => m_Wrapper.m_Player_Walk;
+        public InputAction @GoTo => m_Wrapper.m_Player_GoTo;
         public InputAction @Talk => m_Wrapper.m_Player_Talk;
         public InputAction @Action => m_Wrapper.m_Player_Action;
         public InputAction @Defend => m_Wrapper.m_Player_Defend;
@@ -451,9 +242,9 @@ public class @InputManager : IInputActionCollection, IDisposable
         {
             if (m_Wrapper.m_PlayerActionsCallbackInterface != null)
             {
-                @Walk.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWalk;
-                @Walk.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWalk;
-                @Walk.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnWalk;
+                @GoTo.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnGoTo;
+                @GoTo.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnGoTo;
+                @GoTo.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnGoTo;
                 @Talk.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnTalk;
                 @Talk.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnTalk;
                 @Talk.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnTalk;
@@ -467,9 +258,9 @@ public class @InputManager : IInputActionCollection, IDisposable
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
             {
-                @Walk.started += instance.OnWalk;
-                @Walk.performed += instance.OnWalk;
-                @Walk.canceled += instance.OnWalk;
+                @GoTo.started += instance.OnGoTo;
+                @GoTo.performed += instance.OnGoTo;
+                @GoTo.canceled += instance.OnGoTo;
                 @Talk.started += instance.OnTalk;
                 @Talk.performed += instance.OnTalk;
                 @Talk.canceled += instance.OnTalk;
@@ -521,7 +312,7 @@ public class @InputManager : IInputActionCollection, IDisposable
     }
     public interface IPlayerActions
     {
-        void OnWalk(InputAction.CallbackContext context);
+        void OnGoTo(InputAction.CallbackContext context);
         void OnTalk(InputAction.CallbackContext context);
         void OnAction(InputAction.CallbackContext context);
         void OnDefend(InputAction.CallbackContext context);
